@@ -14,7 +14,7 @@ body {
 }
 
 .body-wrapper {
-    max-width: 1000px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -101,4 +101,13 @@ img {
 
 .contactinfo {
     word-break: break-all;
+}
+
+
+.RetroButton {
+    width: 88px;
+    height: 31px;
+    padding: 1px;
+    display: inline;
+    padding-left: 3px;
 }
