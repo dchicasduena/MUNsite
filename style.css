@@ -74,8 +74,8 @@ article h4 {
 }
 
 main {
-    float: left;
-    max-width: 68%;
+    width: 67%;
+    display: inline-block;
 }
 
 aside {
