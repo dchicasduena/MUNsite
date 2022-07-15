@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title> david  @ cs.mun.ca</title>
+    <title> david @ cs.mun.ca</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
-    
+
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                     </p>
                 </article>
                 <br>
-                
+
             </main>
             <aside>
                 <br>
@@ -60,7 +60,7 @@
                 </article>
                 <br>
                 <article>
-                    <h3 class="title"> friends</h3>
+                    <h2 class="title"> friends</h2>
                     <img class="construction" src="https://stryvemarketing.com/wp-content/uploads/2016/04/image.gif">
                 </article>
                 <br>
@@ -71,16 +71,67 @@
                     <img class="RetroButton" src="https://michaelmjd.neocities.org/images/notepad2.gif">
                     <a a href="https://discord.muncompsci.ca/" target="_blank" rel="noopener noreferrer"><img class="RetroButton" src="https://michaelmjd.neocities.org/images/discord2.gif"></a>
                     <img class="RetroButton" src="https://anlucas.neocities.org/poweredbymac.gif">
-    
+
                 </div>
                 <br>
             </aside>
-    </div>
+            <img src="https://web.archive.org/web/20001013030554im_/http://www.geocities.com/SiliconValley/Park/4545/scaryeye.gif">
+            <div>
+                <article style="width: 100%; background-color: black;">
+                    <h3 style="text-align: center;" class="title"> art from the internet</h3>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img style="width: 100%;" src="https://64.media.tumblr.com/5c76ff0c9d8ff08362937d4f24aa68f2/tumblr_piqsn2ATCQ1ualrc9o1_1280.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img style="width: 100%;" src="https://64.media.tumblr.com/27bbfbb64039c3ba867dd72a9939c5e6/tumblr_pj3geljgUr1ualrc9o1_640.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img style="width: 100%;" src="https://64.media.tumblr.com/594bdafc8ae8e9e163aef6f20c546cfa/tumblr_pn64yaVQl31ualrc9o1_540.jpg">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <br>
         <footer>
             <h3 class="title">Footer</h3>
             <h5 class="title">credits to <a href="https://codepen.io/Puika">Puika</a> for the <a href="https://codepen.io/Puika/pen/dyJKGL">template</a></h5>
         </footer>
     </div>
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery -->    
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
 </body>
 
 </html>

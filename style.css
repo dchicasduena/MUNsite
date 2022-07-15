@@ -1,12 +1,13 @@
-html, body {
+html,
+body {
     cursor: url("https://ia902800.us.archive.org/view_archive.php?archive=/35/items/cursormania/CURSORMANIA%20ARCHIVE.zip&file=CURSORMANIA%20ARCHIVE%2FPOINTERS%2FARROWS%2F8756a.gif"), move;
 }
 
 body {
-    font-family:  "Consolas", monospace;
+    font-family: "Consolas", monospace;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     color: #000;
-    background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2017/12/classic-mac-os-tile-wallpapers-3.png");
+    background-image: url("https://web.archive.org/web/20000810011023im_/http://www.geocities.com/SiliconValley/Park/4545/bluecloud.jpg");
     background-repeat: repeat;
     background-color: #fffff0;
 }
@@ -15,6 +16,7 @@ body {
     text-align: center;
 }
 
+.art,
 .body-wrapper {
     max-width: 80%;
     margin: 0 auto;
@@ -94,8 +96,8 @@ footer {
 }
 
 img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -105,11 +107,55 @@ img {
     word-break: break-all;
 }
 
-
 .RetroButton {
     width: 88px;
     height: 31px;
     padding: 1px;
     display: inline;
     padding-left: 3px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
 }
