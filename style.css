@@ -134,6 +134,7 @@ img {
     from {
         opacity: .4
     }
+
     to {
         opacity: 1
     }
@@ -142,20 +143,20 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+    right: 0;
 }
