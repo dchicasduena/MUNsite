@@ -161,6 +161,13 @@ img {
     right: 0;
 }
 
+
+.MarioComposer {
+    width: 100%;
+    height: 55ch;
+}
+
+
 .blink {
     animation: blinker 2s linear infinite;
     font-weight: bolder; 
