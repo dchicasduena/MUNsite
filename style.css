@@ -9,6 +9,7 @@ body {
     color: #000;
     background-repeat: repeat;
     background-color: #fffff0;
+    background-image: url(https://cdn.osxdaily.com/wp-content/uploads/2017/12/classic-mac-os-tile-wallpapers-1.png);
 }
 
 .text-centre {
@@ -164,14 +165,15 @@ img {
 
 .MarioComposer {
     width: 100%;
-    height: 50ch;
+    height: 55ch;
+    border-image: url(https://www.w3schools.com/cssref/border.png) 90% round;
 }
 
 
 .blink {
     animation: blinker 2s linear infinite;
     font-weight: bolder; 
-    color: black; 
+    color: white; 
     font-size: larger;
   }
   
@@ -180,3 +182,25 @@ img {
       opacity: 0;
     }
   }
+
+.caution{
+    margin: 5px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.btn-audio.is-inactive {
+    background-position: 0 -40px;
+}
+
+.btn-audio {
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    background-image: url(https://www.cameronsworld.net/img/ui/ico-audio.png);
+    background-size: 40px;
+}
