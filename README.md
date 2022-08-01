@@ -1,5 +1,5 @@
 # MUNsite
-my mun site in geocities style (still not up)
+my mun site in geocities style
 
  **credits:**
  - [template](https://github.com/minghai/MarioSequencer)
