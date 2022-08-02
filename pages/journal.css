@@ -8,30 +8,34 @@ html {
 body {
     max-width: 1000px;
     color: #fffff0;
-		border: 1px solid #FF495C;
+		border: 1px solid #FF6978;
 		padding: 1em;
-		box-shadow: 5px 5px #FF495C;
+		box-shadow: 5px 5px #FF6978;
 }
 
-h1, h2, h3 {
+h1, h3 {
     color: #fffff0;
 }
 
+h2{
+    color: #DE9E36;
+}
+
 a {
-    color: #FF495C;
+    color: #FF6978;
 }
 a:visited {
-    color: lightblue;
+    color: #fffff0;
 }
 
 a:hover {
-    background-color: #FF495C;
+    background-color: #FF6978;
     color: #fffff0;
 }
 
 #statuscafe {
-		border-top: 1px solid #FF495C;
-		border-bottom: 1px solid #FF495C;
+		border-top: 1px solid #FF6978;
+		border-bottom: 1px solid #FF6978;
 		padding: 1em 0;
 		margin: 1em 0;
 }
@@ -54,7 +58,7 @@ pre {
 		background-color: #6B7FD7;
 }
 .backlinks {
-    border: 1px solid #F9A03F;
+    border: 1px solid #fffff0;
     padding: 8px;
 }
 .backlinks h2 {
