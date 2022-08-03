@@ -1,5 +1,5 @@
 html {
-    background-color: #6B7FD7;
+    background-color: #141212;
     font-family: sans-serif;
     margin: 8px auto;
 		max-width: 700px;
@@ -8,54 +8,43 @@ html {
 body {
     max-width: 1000px;
     color: #fffff0;
-		border: 1px solid #FF6978;
+		border: 1px solid #D13854;
 		padding: 1em;
-		box-shadow: 5px 5px #FF6978;
+		box-shadow: 5px 5px #D13854;
 }
 
 h1, h3 {
-    color: #fffff0;
+    color: #25BFFB;
 }
 
 h2{
-    color: #FF9B42;
+    color: #FAF643;
 }
 
 a {
-    color: #FF6978;
+    color: #D13854;
 }
 a:visited {
     color: #fffff0;
 }
 
 a:hover {
-    background-color: #FF6978;
+    background-color: #D13854;
     color: #fffff0;
 }
 
 #statuscafe {
-		border-top: 1px solid #FF6978;
-		border-bottom: 1px solid #FF6978;
+		border-top: 1px solid #D13854;
+		border-bottom: 1px solid #D13854;
 		padding: 1em 0;
 		margin: 1em 0;
-}
-.button {
-    background-color: #6B7FD7;
-    display: inline-block;
-    padding: .5em 1em;
-    text-decoration: none;
-    box-shadow: 2px 2px #1E1E24;
-}
-
-.button:hover {
-    background-color: #1E1E24;
 }
 
 pre {
     white-space: pre-wrap;
     font-size: 14px;
     padding: 1em;
-		background-color: #6B7FD7;
+		background-color: #141212;
 }
 .backlinks {
     border: 1px solid #fffff0;
